@@ -97,3 +97,10 @@ body {
   place-content: center;
   margin: 1rem;
 }
+
+/* utilities */
+.flex-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
