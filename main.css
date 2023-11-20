@@ -88,7 +88,8 @@ h3 {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 50%);
+  text-decoration: none;
 }
 
 /** General styling */
@@ -159,10 +160,13 @@ body {
   background-color: var(--clr-neutral-100);
   border-radius: 0.5rem;
   overflow: hidden;
+  max-width: 600px;
+  margin: 50px auto 10px;
 }
 
 @media (min-width: 600px) {
   .product {
+    --content-padding: 2rem;
     grid-template-columns: 1fr 1fr;
   }
 }
